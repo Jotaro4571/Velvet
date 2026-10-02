@@ -1,0 +1,10 @@
+{
+  "version": "2.2.0",
+  "notes": "Игры качаются в папку games и появляются в библиотеке.",
+  "page": "https://jotaro4571.github.io/Velvet/",
+  "downloads": {
+    "windows": "downloads/Velvet-2.2.0-windows.zip",
+    "linux": "downloads/Velvet-2.2.0-linux.zip",
+    "macos": "downloads/Velvet-2.2.0-macos.zip"
+  }
+}
