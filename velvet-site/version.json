@@ -1,10 +1,10 @@
 {
   "version": "2.1.2",
   "notes": "Исправлен запуск: больше не падает с ошибкой ROOT is not defined.",
-  "page": "https://example.com/",
+  "page": "https://github.com/Jotaro4571/Velvet",
   "downloads": {
-    "windows": "downloads/Velvet-2.1.2-windows.zip",
-    "linux": "downloads/Velvet-2.1.2-linux.zip",
-    "macos": "downloads/Velvet-2.1.2-macos.zip"
+    "windows": "downloads/Velvet-2.2.0-windows.zip",
+    "linux": "downloads/Velvet-2.2.0-linux.zip",
+    "macos": "downloads/Velvet-2.2.0-macos.zip"
   }
 }
