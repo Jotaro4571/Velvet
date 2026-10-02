@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VELVET 2.1.1 — лаунчер 18+</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@420;560&family=Fraunces:opsz,wght@9..144,560&display=swap" />
+<style>
+  :root { --bg:#0c0a10; --card:#17131d; --line:rgba(255,255,255,.08); --text:#f6f1ea; --muted:#a39890; --gold:#e7b15a; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"Instrument Sans","Segoe UI",sans-serif; background:radial-gradient(800px 420px at 80% 0%, rgba(255,45,106,.18), transparent 60%), var(--bg); color:var(--text); }
+  header, main { width:min(980px, calc(100% - 32px)); margin:0 auto; }
+  header { display:flex; justify-content:space-between; align-items:center; padding:22px 0; }
+  .brand { display:flex; gap:12px; align-items:center; }
+  .brand img { width:42px; height:42px; border-radius:12px; }
+  .brand b { font-family:Fraunces, Georgia, serif; font-size:22px; }
+  .brand span, .age { color:var(--gold); font-size:12px; letter-spacing:.16em; }
+  h1 { font-family:Fraunces, Georgia, serif; font-size:64px; line-height:.95; margin:28px 0 12px; letter-spacing:-.04em; }
+  .lead, .note { color:var(--muted); line-height:1.55; }
+  .lead { font-size:18px; max-width:680px; }
+  .cards { display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin:32px 0; }
+  .card, .log { background:var(--card); border:1px solid var(--line); border-radius:22px; padding:18px; }
+  .card h2, .log h2 { margin:0 0 6px; font-family:Fraunces, Georgia, serif; }
+  .card p { color:var(--muted); min-height:64px; }
+  a.btn { display:inline-block; text-decoration:none; background:linear-gradient(180deg,#ff4d82,#e21858); color:white; border-radius:999px; padding:11px 16px; }
+  code { color:var(--gold); }
+  footer { color:#6e655e; padding:10px 0 32px; font-size:13px; }
+  @media (max-width:800px) { h1 { font-size:42px; } .cards { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><img src="icon.png" alt="" /><div><b>Velvet</b><br /><span>ЛАУНЧЕР 18+</span></div></div>
+  <div class="age">ВЕРСИЯ 2.1.1</div>
+</header>
+<main>
+  <h1>Скачать Velvet</h1>
+  <p class="lead">Локальный лаунчер взрослых игр. С версии 2.1.1 он сам скачивает новую сборку и ставит её поверх, не стирая папку data. Нужен Python 3.9+.</p>
+  <section class="cards">
+    <article class="card">
+      <h2>Windows</h2>
+      <p>Распакуйте архив и запустите <code>start.bat</code>.</p>
+      <a class="btn" href="downloads/Velvet-2.1.1-windows.zip">Скачать для Windows</a>
+    </article>
+    <article class="card">
+      <h2>Linux</h2>
+      <p>Распакуйте и выполните <code>./start.sh</code>.</p>
+      <a class="btn" href="downloads/Velvet-2.1.1-linux.zip">Скачать для Linux</a>
+    </article>
+    <article class="card">
+      <h2>macOS</h2>
+      <p>Распакуйте и откройте <code>start.command</code>.</p>
+      <a class="btn" href="downloads/Velvet-2.1.1-macos.zip">Скачать для macOS</a>
+    </article>
+  </section>
+  <section class="log">
+    <h2>Автообновление</h2>
+    <p class="note">Лаунчер читает <code>version.json</code>. Если номер выше, скачивает архив своей системы и заменяет файлы программы. Аккаунт, часы и библиотека лежат в <code>data</code> и остаются. Адрес проверки — строка в <code>update_url.txt</code>.</p>
+    <p class="note">Сайт рассчитан на GitHub Pages. После публикации замените <code>https://example.com/</code> в <code>version.json</code> и адрес в <code>update_url.txt</code> на <code>https://ВАШ-ЛОГИН.github.io/velvet-launcher/version.json</code>.</p>
+  </section>
+  <footer>Только 18+. Игр внутри нет: каталог открывает веб-витрины авторов и магазинов.</footer>
+</main>
+</body>
+</html>

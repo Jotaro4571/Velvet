@@ -1,0 +1,10 @@
+{
+  "version": "2.1.1",
+  "notes": "Автообновление: лаунчер сам скачивает сборку и ставит её поверх. Папка data не заменяется.",
+  "page": "https://example.com/",
+  "downloads": {
+    "windows": "downloads/Velvet-2.1.1-windows.zip",
+    "linux": "downloads/Velvet-2.1.1-linux.zip",
+    "macos": "downloads/Velvet-2.1.1-macos.zip"
+  }
+}
