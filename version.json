@@ -1,0 +1,10 @@
+{
+  "version": "2.1.2",
+  "notes": "Исправлен запуск: больше не падает с ошибкой ROOT is not defined.",
+  "page": "https://example.com/",
+  "downloads": {
+    "windows": "downloads/Velvet-2.1.2-windows.zip",
+    "linux": "downloads/Velvet-2.1.2-linux.zip",
+    "macos": "downloads/Velvet-2.1.2-macos.zip"
+  }
+}
