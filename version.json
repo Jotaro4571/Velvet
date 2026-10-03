@@ -1,10 +1,10 @@
 {
-  "version": "2.2.0",
-  "notes": "Игры качаются в папку games и появляются в библиотеке.",
-  "page": "https://github.com/Jotaro4571/Velvet",
+  "version": "2.2.1",
+  "notes": "Достижения из файлов игры, друзья по карточке, поиск сейва в редакторе.",
+  "page": "https://jotaro4571.github.io/Velvet/",
   "downloads": {
-    "windows": "downloads/Velvet-2.2.0-windows.zip",
-    "linux": "downloads/Velvet-2.2.0-linux.zip",
-    "macos": "downloads/Velvet-2.2.0-macos.zip"
+    "windows": "downloads/Velvet-2.2.1-windows.zip",
+    "linux": "downloads/Velvet-2.2.1-linux.zip",
+    "macos": "downloads/Velvet-2.2.1-macos.zip"
   }
 }
